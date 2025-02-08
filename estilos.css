@@ -1,0 +1,47 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #eff2f6;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 50px;
+}
+img {
+    width: 200px;
+    height: auto;
+}
+.enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.enlace {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1c739c;
+    margin: 0px 10px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.boton-principal {
+    text-transform: uppercase;
+    color: #1c739c;
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
