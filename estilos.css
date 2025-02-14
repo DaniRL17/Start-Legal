@@ -6,18 +6,19 @@ nav{
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
-    gap: 50px;
+    margin-right: 5px;
 }
-img {
+.img {
     width: 200px;
     height: auto;
+    margin-left: 5px;
 }
 .enlaces {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 .enlace {
     text-transform: uppercase;
@@ -36,12 +37,166 @@ img {
 
 .boton-principal {
     text-transform: uppercase;
-    color: #1c739c;
-    width: 200px;
+    background-color: #1c739c;
+    color: white;
+    width: 150px;
     height: 50px;
     border-radius: 6px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton-secundario{
+    text-transform: uppercase;
+    color: #1c739c;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+.imagen{
+    margin: 10px 0px;
+    width: 100%;
+    height: 500px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.titulo-contenedor{
+    color: #1c739c;
+    font-weight: 600;
+    text-align: center;
+}
+.text-about{
+    text-align: center;
+    font-weight: 5450;
+    font-size: 17px;
+    color: black;
+}
+.text{
+    width: 900px;
+}
+.container-servicios{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text-2{
+    width: 400px;
+    text-align: center;
+}
+.botones-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.boton-contacto{
+    background-color: #1c739c;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+.container-2{
+    background-color: #f6f7f8;
+}
+.title-container{
+    text-align: center;
+    color: black;
+}
+.text-3{
+    margin-left: 30px;
+    color: #1c739c;
+    font-weight: 480;
+    font-size: 20px;
+}
+.linea{
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.title-container-3{
+    color: #1c739c;
+    text-align: center;
+}
+.text-4{
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+.container-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+.abogados{
+    width: 200px;
+}
+.text-5{
+    color: #1c739c;
+    text-align: center;
+    font-weight: 500;
+}
+.botones-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.boton-detalle{
+    color: white;
+    background-color: #1c739c;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+}
+.container-4{
+    background-color: #f6f7f8;
+}
+.text-6{
+    color: #1c739c;
+    margin-left: 40px;
+    width: 900px;
+}
+.container-abogados{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.imagen-consulta{
+    float: right;
+    margin-left: 10px
+}
+.botones-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.directorio{
+    color: white;
+    background-color: #1c739c;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+    font-size: 15px;
 }
